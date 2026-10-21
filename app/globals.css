@@ -1,7 +1,7 @@
 /* Confirmo — poste de tri : sarcelle profonde, ruban adhésif ambré, étiquettes de colis en mono. */
 :root {
   --bg: #eef2f1; --surface: #ffffff; --sunk: #e3e9e7; --ink: #14302c; --muted: #5b706b; --line: #d2dcd9;
-  --accent: #e0a21b; --accent-ink: #3b2a00; --teal: #1d5c54; --teal-deep: #123f39;
+  --accent: #e0a21b; --accent-ink: #3b2a00; --teal: #1d5c54; --teal-deep: #123f39; --teal-text: #1d5c54;
   --ok: #2f8a4e; --warn: #c77a0c; --bad: #c2392f; --info: #2f6fa8;
   --wa-bg: #dcf5e4; --wa-ink: #10301c;
   --f-display: "Familjen Grotesk", ui-sans-serif, system-ui, sans-serif;
@@ -13,7 +13,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0f1a19; --surface: #162523; --sunk: #1d302d; --ink: #e4efec; --muted: #93aaa4; --line: #2a403c;
-    --accent: #f0b43a; --accent-ink: #2a1d00; --teal: #1f5f57; --teal-deep: #0b2723;
+    --accent: #f0b43a; --accent-ink: #2a1d00; --teal: #1f5f57; --teal-deep: #0b2723; --teal-text: #7fd3c6;
     --ok: #5cc07c; --warn: #e8a23f; --bad: #ef6a5f; --info: #6aa8e0;
     --wa-bg: #1d3b2a; --wa-ink: #d9f2e1;
     color-scheme: dark;
